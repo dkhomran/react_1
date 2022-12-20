@@ -1,10 +1,10 @@
-const Register = () => {
+const Home = () => {
   return (
     <div>
       <nav>
         <ul>
           <li>
-            <a href="#home">home</a>
+            <a href="home">home</a>
           </li>
           <li>
             <a href="css">css</a>
@@ -79,4 +79,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Home;

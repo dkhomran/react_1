@@ -1,10 +1,10 @@
-const Register = () => {
+const Html = () => {
   return (
     <div>
       <nav>
         <ul>
           <li>
-            <a href="#home">home</a>
+            <a href="home">home</a>
           </li>
           <li>
             <a href="css">css</a>
@@ -14,7 +14,7 @@ const Register = () => {
           </li>
         </ul>
       </nav>
-      <h1>home page</h1>
+      <h1>HTML page</h1>
       <form className="container" action="test.php">
         <div>
           <label htmlFor="user">
@@ -79,4 +79,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Html;

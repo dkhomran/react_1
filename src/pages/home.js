@@ -1,19 +1,10 @@
+import Header from "../comp/header";
+
 const Home = () => {
   return (
     <div>
-      <nav>
-        <ul>
-          <li>
-            <a href="home">home</a>
-          </li>
-          <li>
-            <a href="css">css</a>
-          </li>
-          <li>
-            <a href="js">js</a>
-          </li>
-        </ul>
-      </nav>
+      <Header />
+
       <h1>home page</h1>
       <form className="container" action="test.php">
         <div>
